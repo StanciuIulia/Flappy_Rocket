@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Pisces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>983, 668</value>
+  </data>
+  <data name="Pisces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 128</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Pisces.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Pisces.Name" xml:space="preserve">
+    <value>Pisces</value>
+  </data>
+  <data name="&gt;&gt;Pisces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Pisces.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Pisces.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Aries.Location" type="System.Drawing.Point, System.Drawing">
+    <value>967, 609</value>
+  </data>
+  <data name="Aries.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 65</value>
+  </data>
+  <data name="Aries.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Aries.Name" xml:space="preserve">
+    <value>Aries</value>
+  </data>
+  <data name="&gt;&gt;Aries.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Aries.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Aries.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Taurus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>858, 433</value>
+  </data>
+  <data name="Taurus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 207</value>
+  </data>
+  <data name="Taurus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Taurus.Name" xml:space="preserve">
+    <value>Taurus</value>
+  </data>
+  <data name="&gt;&gt;Taurus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Taurus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Taurus.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Gemini.Location" type="System.Drawing.Point, System.Drawing">
+    <value>858, 275</value>
+  </data>
+  <data name="Gemini.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 104</value>
+  </data>
+  <data name="Gemini.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Gemini.Name" xml:space="preserve">
+    <value>Gemini</value>
+  </data>
+  <data name="&gt;&gt;Gemini.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Gemini.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Gemini.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Cancer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>895, 168</value>
+  </data>
+  <data name="Cancer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 80</value>
+  </data>
+  <data name="Cancer.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Cancer.Name" xml:space="preserve">
+    <value>Cancer</value>
+  </data>
+  <data name="&gt;&gt;Cancer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cancer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cancer.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Leo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 42</value>
+  </data>
+  <data name="Leo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 141</value>
+  </data>
+  <data name="Leo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Leo.Name" xml:space="preserve">
+    <value>Leo</value>
+  </data>
+  <data name="&gt;&gt;Leo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Leo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Leo.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Aquarius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 668</value>
+  </data>
+  <data name="Aquarius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>251, 103</value>
+  </data>
+  <data name="Aquarius.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Aquarius.Name" xml:space="preserve">
+    <value>Aquarius</value>
+  </data>
+  <data name="&gt;&gt;Aquarius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Aquarius.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Aquarius.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Capricornus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 580</value>
+  </data>
+  <data name="Capricornus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 94</value>
+  </data>
+  <data name="Capricornus.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Capricornus.Name" xml:space="preserve">
+    <value>Capricornus</value>
+  </data>
+  <data name="&gt;&gt;Capricornus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Capricornus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Capricornus.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CanisMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>647, 303</value>
+  </data>
+  <data name="CanisMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 94</value>
+  </data>
+  <data name="CanisMajor.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;CanisMajor.Name" xml:space="preserve">
+    <value>CanisMajor</value>
+  </data>
+  <data name="&gt;&gt;CanisMajor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CanisMajor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CanisMajor.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Orion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>746, 385</value>
+  </data>
+  <data name="Orion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 112</value>
+  </data>
+  <data name="Orion.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Orion.Name" xml:space="preserve">
+    <value>Orion</value>
+  </data>
+  <data name="&gt;&gt;Orion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Orion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Orion.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="UrsaMinor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1173, 332</value>
+  </data>
+  <data name="UrsaMinor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 104</value>
+  </data>
+  <data name="UrsaMinor.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UrsaMinor.Name" xml:space="preserve">
+    <value>UrsaMinor</value>
+  </data>
+  <data name="&gt;&gt;UrsaMinor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UrsaMinor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UrsaMinor.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Sagittarius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 403</value>
+  </data>
+  <data name="Sagittarius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 146</value>
+  </data>
+  <data name="Sagittarius.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;Sagittarius.Name" xml:space="preserve">
+    <value>Sagittarius</value>
+  </data>
+  <data name="&gt;&gt;Sagittarius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sagittarius.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Sagittarius.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Scorpio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 252</value>
+  </data>
+  <data name="Scorpio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 145</value>
+  </data>
+  <data name="Scorpio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Scorpio.Name" xml:space="preserve">
+    <value>Scorpio</value>
+  </data>
+  <data name="&gt;&gt;Scorpio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Scorpio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Scorpio.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Libra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 168</value>
+  </data>
+  <data name="Libra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 78</value>
+  </data>
+  <data name="Libra.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Libra.Name" xml:space="preserve">
+    <value>Libra</value>
+  </data>
+  <data name="&gt;&gt;Libra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Libra.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Libra.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Virgo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 13</value>
+  </data>
+  <data name="Virgo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 149</value>
+  </data>
+  <data name="Virgo.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Virgo.Name" xml:space="preserve">
+    <value>Virgo</value>
+  </data>
+  <data name="&gt;&gt;Virgo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Virgo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Virgo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Ophiucus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 182</value>
+  </data>
+  <data name="Ophiucus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 215</value>
+  </data>
+  <data name="Ophiucus.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Ophiucus.Name" xml:space="preserve">
+    <value>Ophiucus</value>
+  </data>
+  <data name="&gt;&gt;Ophiucus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Ophiucus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Ophiucus.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Cygnus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1307, 450</value>
+  </data>
+  <data name="Cygnus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 149</value>
+  </data>
+  <data name="Cygnus.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Cygnus.Name" xml:space="preserve">
+    <value>Cygnus</value>
+  </data>
+  <data name="&gt;&gt;Cygnus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Cygnus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Cygnus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="UrsaMajor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1050, 189</value>
+  </data>
+  <data name="UrsaMajor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 153</value>
+  </data>
+  <data name="UrsaMajor.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;UrsaMajor.Name" xml:space="preserve">
+    <value>UrsaMajor</value>
+  </data>
+  <data name="&gt;&gt;UrsaMajor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UrsaMajor.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;UrsaMajor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ButonJoc.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ButonJoc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Ravie, 9.75pt, style=Bold</value>
+  </data>
+  <data name="ButonJoc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1446, 13</value>
+  </data>
+  <data name="ButonJoc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 150</value>
+  </data>
+  <data name="ButonJoc.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ButonJoc.Text" xml:space="preserve">
+    <value>Test
+Your
+Memory
+  
+
+</value>
+  </data>
+  <data name="&gt;&gt;ButonJoc.Name" xml:space="preserve">
+    <value>ButonJoc</value>
+  </data>
+  <data name="&gt;&gt;ButonJoc.Type" xml:space="preserve">
+    <value>WindowsFormsApplication1.RoundButton, chestionar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ButonJoc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButonJoc.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="buttonTeorieConstelatii.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAYABgAAD/4QBeRXhpZgAATU0AKgAAAAgAAgESAAMAAAABAAEAAIdpAAQAAAAB
+        AAAAJgAAAAAAAZKGAAcAAAAcAAAAOAAAAABMAGEAdgBjADUANQAuADEAOAAuADEAMAAyAAAAAAD/2wBD
+        AAIBAQIBAQICAgICAgICAwUDAwMDAwYEBAMFBwYHBwcGBwcICQsJCAgKCAcHCg0KCgsMDAwMBwkODw0M
+        DgsMDAz/2wBDAQICAgMDAwYDAwYMCAcIDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+        DAwMDAwMDAwMDAwMDAz/wAARCACNAJcDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQF
+        BgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAk
+        M2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
+        h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx
+        8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQA
+        AQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5
+        OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmq
+        srO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+
+        f+nIOKbTk6UAOoopShB6dO9ACUUUEYNABRRRQAUUUUAGz2/SgoSM7Wxjrip7eLzCq7W+Y7QAMkk8f/q9
+        6+rP+CYH/BHn4sf8FTfiB9h8H2K6L4PsZlTWPFmpRsunacOpVCBmebbkiJOe7Mi5agDwP4Gfs+eMP2mP
+        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
+</value>
+  </data>
+  <data name="buttonTeorieConstelatii.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonTeorieConstelatii.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Ravie, 12pt, style=Bold</value>
+  </data>
+  <data name="buttonTeorieConstelatii.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="buttonTeorieConstelatii.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 150</value>
+  </data>
+  <data name="buttonTeorieConstelatii.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonTeorieConstelatii.Text" xml:space="preserve">
+    <value>QUIZ
+
+</value>
+  </data>
+  <data name="&gt;&gt;buttonTeorieConstelatii.Name" xml:space="preserve">
+    <value>buttonTeorieConstelatii</value>
+  </data>
+  <data name="&gt;&gt;buttonTeorieConstelatii.Type" xml:space="preserve">
+    <value>WindowsFormsApplication1.RoundButton, chestionar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonTeorieConstelatii.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonTeorieConstelatii.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Ravie, 18pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 27</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>491, 68</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>  Click on each constellation
+          to find out more!</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Lyra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1384, 433</value>
+  </data>
+  <data name="Lyra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 50</value>
+  </data>
+  <data name="Lyra.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Lyra.Name" xml:space="preserve">
+    <value>Lyra</value>
+  </data>
+  <data name="&gt;&gt;Lyra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lyra.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lyra.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1604, 821</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Constellations</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Pagina_Constelatii</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

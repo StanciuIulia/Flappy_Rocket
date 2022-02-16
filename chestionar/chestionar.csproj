@@ -1,0 +1,1281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51FEB235-11B9-4959-B384-431CEF3CD9FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>chestionar</RootNamespace>
+    <AssemblyName>chestionar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuiz1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuiz1.Designer.cs">
+      <DependentUpon>ConstellationQuiz1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuiz2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuiz2.Designer.cs">
+      <DependentUpon>ConstellationQuiz2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuizHappy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuizHappy.Designer.cs">
+      <DependentUpon>ConstellationQuizHappy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuizSad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\ConstellationQuiz\ConstellationQuizSad.Designer.cs">
+      <DependentUpon>ConstellationQuizSad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\CanisMajor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\CanisMajor.Designer.cs">
+      <DependentUpon>CanisMajor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Capricornus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Capricornus.Designer.cs">
+      <DependentUpon>Capricornus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\Aquarius.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\Aquarius.Designer.cs">
+      <DependentUpon>Aquarius.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cancer\Cancer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cancer\Cancer.Designer.cs">
+      <DependentUpon>Cancer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aries.Designer.cs">
+      <DependentUpon>Aries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Gemini\Gemini.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Gemini\Gemini.Designer.cs">
+      <DependentUpon>Gemini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Joc_Constelatii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Joc_Constelatii.Designer.cs">
+      <DependentUpon>Joc_Constelatii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Gemini\M35.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Gemini\M35.Designer.cs">
+      <DependentUpon>M35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Pisces\M74.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Pisces\M74.Designer.cs">
+      <DependentUpon>M74.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Pagina_Constelatii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Pagina_Constelatii.Designer.cs">
+      <DependentUpon>Pagina_Constelatii.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Pisces\Pisces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Pisces\Pisces.Designer.cs">
+      <DependentUpon>Pisces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Leo\Leo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Leo\Leo.Designer.cs">
+      <DependentUpon>Leo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Libra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Libra.Designer.cs">
+      <DependentUpon>Libra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Ophiucus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Ophiucus.Designer.cs">
+      <DependentUpon>Ophiucus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\Orion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\Orion.Designer.cs">
+      <DependentUpon>Orion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cygnus\Cygnus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cygnus\Cygnus.Designer.cs">
+      <DependentUpon>Cygnus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cygnus\M29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cygnus\M29.Designer.cs">
+      <DependentUpon>M29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cygnus\M39.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cygnus\M39.Designer.cs">
+      <DependentUpon>M39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M4.Designer.cs">
+      <DependentUpon>M4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M6.Designer.cs">
+      <DependentUpon>M6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M7.Designer.cs">
+      <DependentUpon>M7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M80.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\M80.Designer.cs">
+      <DependentUpon>M80.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Taurus\M1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Taurus\M1.Designer.cs">
+      <DependentUpon>M1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Taurus\M45.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Taurus\M45.Designer.cs">
+      <DependentUpon>M45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cancer\M44.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cancer\M44.Designer.cs">
+      <DependentUpon>M44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cancer\M67.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Cancer\M67.Designer.cs">
+      <DependentUpon>M67.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Leo\Mleo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Leo\Mleo.Designer.cs">
+      <DependentUpon>Mleo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Saggitarius\Msaggitarius.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Saggitarius\Msaggitarius.Designer.cs">
+      <DependentUpon>Msaggitarius.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlappyAlien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlappyAlien.Designer.cs">
+      <DependentUpon>FlappyAlien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\M2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\M2.Designer.cs">
+      <DependentUpon>M2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\M42.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\M42.Designer.cs">
+      <DependentUpon>M42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\M43.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\M43.Designer.cs">
+      <DependentUpon>M43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\M72.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\M72.Designer.cs">
+      <DependentUpon>M72.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\M73.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Aquarius\M73.Designer.cs">
+      <DependentUpon>M73.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\M78.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Orion\M78.Designer.cs">
+      <DependentUpon>M78.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Lyra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Lyra.Designer.cs">
+      <DependentUpon>Lyra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuiz2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuiz2.Designer.cs">
+      <DependentUpon>PlanetQuiz2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuizHappy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuizHappy.Designer.cs">
+      <DependentUpon>PlanetQuizHappy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuizSad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuizSad.Designer.cs">
+      <DependentUpon>PlanetQuizSad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Saturn\SatelitiSaturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Saturn\SatelitiSaturn.Designer.cs">
+      <DependentUpon>SatelitiSaturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Joc_Planete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Jupiter\SatelitiJupiter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Jupiter\SatelitiJupiter.Designer.cs">
+      <DependentUpon>SatelitiJupiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Saturn\StructuraSaturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Saturn\StructuraSaturn.Designer.cs">
+      <DependentUpon>StructuraSaturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Teorie_Planete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Teorie_Planete.Designer.cs">
+      <DependentUpon>Teorie_Planete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Mercury.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Mercury.Designer.cs">
+      <DependentUpon>Mercury.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Venus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Venus.Designer.cs">
+      <DependentUpon>Venus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Earth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Earth.Designer.cs">
+      <DependentUpon>Earth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Mars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Mars.Designer.cs">
+      <DependentUpon>Mars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Jupiter\Jupiter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Jupiter\Jupiter.Designer.cs">
+      <DependentUpon>Jupiter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Saturn\Saturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Saturn\Saturn.Designer.cs">
+      <DependentUpon>Saturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Uranus\SatelitiUranus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Uranus\SatelitiUranus.Designer.cs">
+      <DependentUpon>SatelitiUranus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Uranus\Uranus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Uranus\Uranus.Designer.cs">
+      <DependentUpon>Uranus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Neptune.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Planets\Neptune.Designer.cs">
+      <DependentUpon>Neptune.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\Pagina_Planete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\Pagina_Planete.Designer.cs">
+      <DependentUpon>Pagina_Planete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuiz1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planets Part\PlanetsQuiz\PlanetQuiz1.Designer.cs">
+      <DependentUpon>PlanetQuiz1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RoundBotton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Saggitarius\Sagittarius.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Saggitarius\Sagittarius.Designer.cs">
+      <DependentUpon>Sagittarius.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\Scorpio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Scorpius\Scorpio.Designer.cs">
+      <DependentUpon>Scorpio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start_Page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start_Page.Designer.cs">
+      <DependentUpon>Start_Page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Taurus\Taurus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Taurus\Taurus.Designer.cs">
+      <DependentUpon>Taurus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\UrsaMinor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\UrsaMinor.Designer.cs">
+      <DependentUpon>UrsaMinor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Virgo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\Virgo.Designer.cs">
+      <DependentUpon>Virgo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\UrsaMajor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constellations Part\Constellations\UrsaMajor.Designer.cs">
+      <DependentUpon>UrsaMajor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Constellations Part\ConstellationQuiz\ConstellationQuiz1.resx">
+      <DependentUpon>ConstellationQuiz1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\ConstellationQuiz\ConstellationQuiz2.resx">
+      <DependentUpon>ConstellationQuiz2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\ConstellationQuiz\ConstellationQuizHappy.resx">
+      <DependentUpon>ConstellationQuizHappy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\ConstellationQuiz\ConstellationQuizSad.resx">
+      <DependentUpon>ConstellationQuizSad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\CanisMajor.resx">
+      <DependentUpon>CanisMajor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Capricornus.resx">
+      <DependentUpon>Capricornus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Aquarius\Aquarius.resx">
+      <DependentUpon>Aquarius.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Cancer\Cancer.resx">
+      <DependentUpon>Cancer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Aries.resx">
+      <DependentUpon>Aries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Gemini\Gemini.resx">
+      <DependentUpon>Gemini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Libra.resx">
+      <DependentUpon>Libra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Saggitarius\Sagittarius.resx">
+      <DependentUpon>Sagittarius.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Joc_Constelatii.resx">
+      <DependentUpon>Joc_Constelatii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Gemini\M35.resx">
+      <DependentUpon>M35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Pisces\M74.resx">
+      <DependentUpon>M74.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Pagina_Constelatii.en.resx">
+      <DependentUpon>Pagina_Constelatii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Pagina_Constelatii.mzn-IR.resx">
+      <DependentUpon>Pagina_Constelatii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Pagina_Constelatii.resx">
+      <DependentUpon>Pagina_Constelatii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Pisces\Pisces.resx">
+      <DependentUpon>Pisces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Leo\Leo.resx">
+      <DependentUpon>Leo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Ophiucus.resx">
+      <DependentUpon>Ophiucus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Orion\Orion.resx">
+      <DependentUpon>Orion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Cygnus\Cygnus.resx">
+      <DependentUpon>Cygnus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Cygnus\M29.resx">
+      <DependentUpon>M29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Cygnus\M39.resx">
+      <DependentUpon>M39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Scorpius\M4.resx">
+      <DependentUpon>M4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Scorpius\M6.resx">
+      <DependentUpon>M6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Scorpius\M7.resx">
+      <DependentUpon>M7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Scorpius\M80.resx">
+      <DependentUpon>M80.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Taurus\M1.resx">
+      <DependentUpon>M1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Taurus\M45.resx">
+      <DependentUpon>M45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Cancer\M44.resx">
+      <DependentUpon>M44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Cancer\M67.resx">
+      <DependentUpon>M67.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Leo\Mleo.resx">
+      <DependentUpon>Mleo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Saggitarius\Msaggitarius.resx">
+      <DependentUpon>Msaggitarius.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlappyAlien.resx">
+      <DependentUpon>FlappyAlien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Aquarius\M2.resx">
+      <DependentUpon>M2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Orion\M42.resx">
+      <DependentUpon>M42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Orion\M43.resx">
+      <DependentUpon>M43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Aquarius\M72.resx">
+      <DependentUpon>M72.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Aquarius\M73.resx">
+      <DependentUpon>M73.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Orion\M78.resx">
+      <DependentUpon>M78.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Lyra.resx">
+      <DependentUpon>Lyra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\PlanetsQuiz\PlanetQuiz2.resx">
+      <DependentUpon>PlanetQuiz2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\PlanetsQuiz\PlanetQuizHappy.resx">
+      <DependentUpon>PlanetQuizHappy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\PlanetsQuiz\PlanetQuizSad.resx">
+      <DependentUpon>PlanetQuizSad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Joc_Planete.resx">
+      <DependentUpon>Joc_Planete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Jupiter\SatelitiJupiter.resx">
+      <DependentUpon>SatelitiJupiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Saturn\SatelitiSaturn.resx">
+      <DependentUpon>SatelitiSaturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Saturn\StructuraSaturn.resx">
+      <DependentUpon>StructuraSaturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Teorie_Planete.resx">
+      <DependentUpon>Teorie_Planete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Mercury.resx">
+      <DependentUpon>Mercury.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Venus.resx">
+      <DependentUpon>Venus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Earth.resx">
+      <DependentUpon>Earth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Mars.resx">
+      <DependentUpon>Mars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Jupiter\Jupiter.resx">
+      <DependentUpon>Jupiter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Saturn\Saturn.resx">
+      <DependentUpon>Saturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Uranus\SatelitiUranus.resx">
+      <DependentUpon>SatelitiUranus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Uranus\Uranus.resx">
+      <DependentUpon>Uranus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Planets\Neptune.resx">
+      <DependentUpon>Neptune.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\Pagina_Planete.resx">
+      <DependentUpon>Pagina_Planete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planets Part\PlanetsQuiz\PlanetQuiz1.resx">
+      <DependentUpon>PlanetQuiz1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Scorpius\Scorpio.resx">
+      <DependentUpon>Scorpio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start_Page.resx">
+      <DependentUpon>Start_Page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Taurus\Taurus.resx">
+      <DependentUpon>Taurus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\UrsaMinor.resx">
+      <DependentUpon>UrsaMinor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\Virgo.resx">
+      <DependentUpon>Virgo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constellations Part\Constellations\UrsaMajor.resx">
+      <DependentUpon>UrsaMajor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eu si teo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza principala2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stele.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundal planete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buton2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buton1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buton3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poza Draguta Planete Teorie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercur1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercur2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mercur3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venus1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venus2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venus3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venus4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venus5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marte7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jupiter poza mare 8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn poza mare 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturn poza mare 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uranus poza mare1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptun1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptun2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptun3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptun4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptun5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\neptun6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza pagina constelatii.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steluta2 .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steluta4 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steluta2 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steluta3 .jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PiscesArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PiscesCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pisces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M74.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AriesArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AriesArt1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AriesCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AriesCC1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeminiArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeminiCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gemini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scorpius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpioArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ScorpiusCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M80.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CygnusCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CygnusCC1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CygnusArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cygnus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaurusArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaurusCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taurus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancerArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancerArt1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancerCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M67.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeoArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeoCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza pagina constelatii1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MLeo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MLeo1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza principala21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steluta4 %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza pagina constelatii2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poza principala22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pamant1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stele1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessierLeo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirgoArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VirgoCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LibraArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LibraCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Libra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SagittariusCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SagittariusArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sagittarius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CapricornusCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Msagg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AquariusCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M72.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M73.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butonext.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ext.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrionArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OrionCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ori.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cintura_di_Orione_binocolo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M78.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\M42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Happy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Csad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chappy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Canis Major Art.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CanisMajorCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LyraCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OphiucusArt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OphiuchusCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ursa_Major2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UrsaMajorCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ursa Minor Art.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UrsaMinorCC.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
